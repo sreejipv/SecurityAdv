@@ -1,0 +1,454 @@
+<html>
+            
+    <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta http-equiv="Content-Language" content="en">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>Analytics Dashboard </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+            <meta name="description" content="Analytics Dashboard">
+            <link rel="stylesheet" type="text/css" href="styles.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <div class=" appheader flex flex-between pl10 pr10 pt10 p-fixed bg-white">
+            <div class="flex"> 
+                    <div class="mobonly menu pl10 flex flex-column flex-center">
+                            <div>
+                                <div class="menuchild"></div>
+                                <div class="menuchild"></div>
+                                <div class="menuchild"></div>
+                            </div>     
+                        </div>
+                    <div class="logo pl10">
+                           <a href="#"> <img src="./images/logo.jpg" width="200"/></a>
+                    </div>
+                        <div class=" menu pl10 flex flex-column flex-center">
+                            <div class="deskonly">
+                                <div class="menuchild"></div>
+                                <div class="menuchild"></div>
+                                <div class="menuchild"></div>
+                            </div>     
+                        </div>
+                        <div class="deskonly borderRight pl10 pr10">
+                            <p>Welcome to SecurityAdvisor</p>
+                        </div>
+                        <div class="deskonly pl10 pr10">
+                            <p>Create Campaign</p>
+                        </div>
+            </div>
+            <div class="deskonly"> 
+                    <div class="account flex pr25">
+                            <span class="flex-column flex-center">
+                                <img class="flex" src="./images/avatar.png"  width="30"/>
+                            </span>    
+                            
+                            <span class=" flex-column flex-center pr10 pl10">vichuhari108</span>
+                            
+                            <span class=" flex-column flex-center">
+                                <img src="images/down-arrow.png" width="8" />
+                            </span>
+
+                    </div>
+            </div>
+            <div class="mobonly">
+                    <div class="account flex pr10">
+                            <span class="flex-column flex-center">
+                                <img class="flex" src="./images/avatar.png"  width="30"/>
+                            </span>    
+                            
+
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="appmain flex pt60">
+            <!-- sidebar starts -->
+            <div class="sidebar w_280 c-white bg-purple p-fixed h_full fLeft">
+                <div class="scrollable pb20">
+                        <div class="list list1">
+                                <div class="p-relative pt15 pl10">
+                                    <span class="p-absolute bg-purple pr5">Overview</span>
+                                    <hr>
+                                </div>
+                                <ul class="no-style pt10">
+                                    <li class="flex flex-column  collapsemenu ">
+                                        
+                                        <div class="flex flex-between collapsehead">
+                                            <div class="flex">
+                                                <span><img src="./images/dashboard.png" width="25"/></span>
+                                                <span  class="flex-column flex-center pl10">Dashboard</span>
+                                            </div>
+                                            <div class="flex flex-column flex-center pr10">
+                                                <span class="collapse-arrow "><img src="./images/leftarrow.png" width="10" /></span> 
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="flex collapsemenudrawer hide">
+                                            <div  class="flex pl35">
+                                                no data
+                                            </div>
+                                        </div>
+                                    </li> 
+                                </ul>
+                            </div>
+            
+                            <div class="list list2">
+                                    <div class="p-relative pt15 pl10">
+                                        <span class="p-absolute bg-purple pr5">Security</span>
+                                        <hr>
+                                    </div>
+                                    <ul class="no-style pt10">
+                                    
+                                        <li class="flex flex-column  collapsemenu ">
+                                            
+                                            <div class="flex flex-between collapsehead">
+                                                <div class="flex">
+                                                        <span><img src="./images/security.png" width="25"/></span>
+                                                        <span  class="flex-column flex-center pl10">Scurity Awareness</span>
+                                                    </div>
+                                                <div class="flex flex-column flex-center pr10">
+                                                    <span class="collapse-arrow "><img src="./images/leftarrow.png" width="10" /></span> 
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                        </li>
+            
+                                        <li class="flex flex-column  collapsemenu  pt20">
+                                            
+                                                <div class="flex flex-between collapsehead">
+                                                    <div class="flex">
+                                                            <span><img src="./images/folder.png" width="25"/></span>
+                                                            <span  class="flex-column flex-center pl10">App Integrations & Data </span>
+                                                        </div>
+                                                    <div class="flex flex-column flex-center pr10">
+                                                        <span class="collapse-arrow "><img src="./images/leftarrow.png" width="10" /></span> 
+                                                    </div>
+                                                </div>
+                                                
+                                            </li>
+            
+                                            <li class="flex flex-column  collapsemenu  pt20">
+                                            
+                                                    <div class="flex flex-between collapsehead">
+                                                        <div class="flex">
+                                                                <span><img src="./images/cybercrime.png" width="25"/></span>
+                                                                <span  class="flex-column flex-center pl10">Phishing simulations </span>
+                                                            </div>
+                                                        <div class="flex flex-column flex-center pr10">
+                                                            <span class="collapse-arrow "><img src="./images/leftarrow.png" width="10" /></span> 
+                                                        </div>
+                                                    </div>
+                                                 
+                                                </li>
+                                        
+                                    </ul>
+                            </div>
+            
+                            <div class="list list3">
+                                    <div class="p-relative pt15 pl10">
+                                        <span class="p-absolute bg-purple pr5">Create/ Manage</span>
+                                        <hr>
+                                    </div>
+                                    <ul class="no-style pt10">
+                                    
+                                         <li class="flex flex-column  collapsemenu  pt20">
+                                            
+                                                <div class="flex flex-between collapsehead">
+                                                    <div class="flex">
+                                                            <span><img src="./images/group.png" width="25"/></span>
+                                                            <span  class="flex-column flex-center pl10">User management </span>
+                                                        </div>
+                                                    <div class="flex flex-column flex-center pr10">
+                                                        <span class="collapse-arrow "><img src="./images/leftarrow.png" width="10" /></span> 
+                                                    </div>
+                                                </div>
+                                                
+                                            </li>
+                                            <li class="flex flex-column  collapsemenu  pt20">
+            
+                                            <div class="flex flex-between collapsehead">
+                                                    <div class="flex">
+                                                            <span><img src="./images/telegram.png" width="25"/></span>
+                                                            <span  class="flex-column flex-center pl10">Scurity Awareness</span>
+                                                        </div>
+                                                    <div class="flex flex-column flex-center pr10">
+                                                        <span class="collapse-arrow "><img src="./images/leftarrow.png" width="10" /></span> 
+                                                    </div>
+                                                </div>
+                                
+                                            </li>
+            
+                                            <li class="flex flex-column  collapsemenu  pt20">
+                                            
+                                                    <div class="flex flex-between collapsehead accordion active">
+                                                        <div class="flex">
+                                                                <span><img src="./images/cybercrime.png" width="25"/></span>
+                                                                <span  class="flex-column flex-center pl10">Phishing simulations </span>
+                                                            </div>
+                                                        <div class="flex flex-column flex-center pr10">
+                                                            <span class="collapse-arrow "><img src="./images/leftarrow.png" width="10" /></span> 
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="flex-column collapsemenudrawer panel pt10 pb20" style="display: block">
+                                                        <div  class="flex pl35 pt10">
+                                                            Email Templates 
+                                                        </div>
+                                                        <div class="flex pl35 pt10">
+                                                            Create a campaign
+                                                        </div>
+                                                        <div  class="flex pl35 pt10">
+                                                            View Campaigns
+                                                        </div>
+                                                        <div  class="flex pl35 pt10">
+                                                            View Campaigns
+                                                        </div>
+                                                    </div>
+            
+                                                   
+                                                </li>
+                                        
+                                    </ul>
+                            </div>
+                </div>
+            </div>
+            <!-- sidebar ends -->
+            <div class="h_full fLeft pageContent pt15">
+                <div class="heading-one flex flex-between">
+                        <div class="flex">
+                            <h3 class="fsemiBold">View Campaigns</h3>
+                            <span class="flex-column flex-center pl20">59 Campaigns</span>
+                            <div class="flex-column flex-center pl20">
+                                    <input class="p10" type="text" id="filterbyname" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+                            </div>
+                        </div>
+                        
+                
+                        <div class="flex flex-column flex-center">
+                            <div class="flex">
+                                    <label for="sort">Sort by:</label>
+
+                                    <select id="sort" onchange="sortTable(this.value)">
+                                      <option value="1">Name</option>
+                                      <option value="2">users</option>
+                        
+                                    </select>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="datatables flex p20">
+                    <div class="progressList">                            
+                            <table id="campaignTable"  border="0" cellspacing="0" cellpadding="0" >
+                                    <tr bgcolor="#eaeaf1">
+                                            <th class="p10"></th>
+                                            <th width="150px" class="p10" onclick="sortTable(1)">Name</th>
+                                            <th width="140px" class="p10" onclick="sortTable(2)">Progress</th>
+                                            <th width="170px" class="p10"onclick="sortTable(3)">Users/Smartgroups</th>
+                                            <th width="110px" class="p10">Startdate</th>
+                                            <th></th>
+                                        </tr>
+                                        <tr>
+                                                <td class="p10"><input type="radio"></td> 
+                                                <td class="p10">optuuuu Futterkiste</td>
+                                                <td class="p10 flex">
+                                                    <div class="bg-p-container flex flex-column flex-center mt5 mr5">
+                                                            <div class="bg-p-data" style="width:20%"></div>
+                                                    </div>
+        
+                                                    <div class="flex">
+                                                        20%
+                                                    </div>
+                                                </td>
+                                                <td class="p10">345 <span>users</span></td>
+                                                <td class="p10">22 January 2020</td>
+                                                <td class="p10">...</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="p10"><input type="radio"></td> 
+                                                    <td class="p10">Futterkiste</td>
+                                                    
+                                                    <td class="p10 flex">
+                                                        <div class="bg-p-container flex flex-column flex-center mt5 mr5">
+                                                                    <div class="bg-p-data" style="width:30%"></div>
+                                                        </div>
+                                                        <div class="flex">
+                                                            30%
+                                                        </div>
+                                                    </td>
+                                                 
+                                                    <td class="p10">35 <span>users</span></td>
+                                                    <td class="p10">22 January 2020</td>
+                                                    <td class="p10">...</td>
+                                                </tr>
+                                                <tr>
+                                                        <td class="p10"><input type="radio"></td> 
+                                                        <td class="p10">Futterkiste</td>
+                                                        
+                                                        <td class="p10 flex">
+                                                            <div class="bg-p-container flex flex-column flex-center mt5 mr5">
+                                                                        <div class="bg-p-data" style="width:30%"></div>
+                                                            </div>
+                                                            <div class="flex">
+                                                                30%
+                                                            </div>
+                                                        </td>
+                                                     
+                                                        <td class="p10">35 <span>users</span></td>
+                                                        <td class="p10">22 January 2020</td>
+                                                        <td class="p10">...</td>
+                                                    </tr>
+                                                    <tr>
+                                                            <td class="p10"><input type="radio"></td> 
+                                                            <td class="p10">Futterkiste</td>
+                                                            
+                                                            <td class="p10 flex">
+                                                                <div class="bg-p-container flex flex-column flex-center mt5 mr5">
+                                                                            <div class="bg-p-data" style="width:30%"></div>
+                                                                </div>
+                                                                <div class="flex">
+                                                                    30%
+                                                                </div>
+                                                            </td>
+                                                         
+                                                            <td class="p10">35 <span>users</span></td>
+                                                            <td class="p10">22 January 2020</td>
+                                                            <td class="p10">...</td>
+                                                        </tr>
+                                                        
+                                                    <tr>
+                                                        <td class="p10"><input type="radio"></td> 
+                                                        <td class="p10">Alfreds Futterkiste</td>
+                                                        <td class="p10 flex">
+                                                                <div class="bg-p-container flex flex-column flex-center mt5 mr5">
+                                                                            <div class="bg-p-data" style="width:30%"></div>
+                                                                </div>
+                                                                <div class="flex">
+                                                                    30%
+                                                                </div>
+                                                            </td>
+                                                            <td class="p10">35 <span>users</span></td>
+                                                            <td class="p10">22 January 2020</td>
+                                                        <td class="p10">...</td>
+                                                    </tr>
+                                                    <tr>
+                                                            <td class="p10"><input type="radio"></td> 
+                                                            <td class="p10">xyz Futterkiste</td>
+                                                            <td class="p10 flex">
+                                                                    <div class="bg-p-container flex flex-column flex-center mt5 mr5">
+                                                                                <div class="bg-p-data" style="width:30%"></div>
+                                                                    </div>
+                                                                    <div class="flex">
+                                                                        30%
+                                                                    </div>
+                                                                </td>
+                                                                <td class="p10">35 <span>users</span></td>
+                                                                <td class="p10">22 January 2020</td>
+                                                            <td class="p10">...</td>
+                                                        </tr>
+                                                        <tr>
+                                                                <td class="p10"><input type="radio"></td> 
+                                                                <td class="p10">xyz Futterkiste</td>
+                                                                <td class="p10 flex">
+                                                                        <div class="bg-p-container flex flex-column flex-center mt5 mr5">
+                                                                                    <div class="bg-p-data" style="width:30%"></div>
+                                                                        </div>
+                                                                        <div class="flex">
+                                                                            30%
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="p10">35 <span>users</span></td>
+                                                                    <td class="p10">22 January 2020</td>
+                                                                <td class="p10">...</td>
+                                                            </tr>
+                                                            <tr>
+                                                                    <td class="p10"><input type="radio"></td> 
+                                                                    <td class="p10">aed oihnm Futterkiste</td>
+                                                                    <td class="p10 flex">
+                                                                            <div class="bg-p-container flex flex-column flex-center mt5 mr5">
+                                                                                        <div class="bg-p-data" style="width:60%"></div>
+                                                                            </div>
+                                                                            <div class="flex">
+                                                                                60%
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="p10">35 <span>users</span></td>
+                                                                        <td class="p10">22 January 2020</td>
+                                                                    <td class="p10">...</td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                        <td class="p10"><input type="radio"></td> 
+                                                                        <td class="p10">abc kjkjk</td>
+                                                                        <td class="p10 flex">
+                                                                                <div class="bg-p-container flex flex-column flex-center mt5 mr5">
+                                                                                            <div class="bg-p-data" style="width:30%"></div>
+                                                                                </div>
+                                                                                <div class="flex">
+                                                                                    30%
+                                                                                </div>
+                                                                            </td>
+                                                                            <td class="p10">35 <span>users</span></td>
+                                                                            <td class="p10">22 January 2020</td>
+                                                                        <td class="p10">...</td>
+                                                                    </tr>
+                                  </table>
+                           
+                    </div>
+                    <div class="graphicReport ml20 bg-lightGrey pl20 pr20 pt20 pb20">
+                        <div class="campaign min_w_200 bg-lightshade pl20 pr20 pt20 pb20">
+                            
+                            <img class="flex m_auto" src="./images/send.png" width="40" />
+                            <p class="ta_center fsemiBold mb0">Campaign: Test New</p>
+                            <p class="ta_center mb0 mt5">Content:Social Media</p>
+                        </div>
+
+                        <div class="campaign min_w_200 bg-lightshade pl20 pr20 pt20 pb20 mt20">
+                            <div class="flex flex-center Btn-container mt15">
+                                <div class="p10 activeBtn no-border">Overview</div>
+                                <div class="p10 no-border-left">Users</div>
+                            </div>
+             
+                                      <div id="cont">
+                                            <svg id="svg" width="200" height="200" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                              <circle r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+                                              <circle id="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0" transform="rotate(-90, 100, 100)"></circle>                                             
+                                              <text x="70" y="90" font-family="Verdana"  font-weight="600"  style="font-size:25px;font-weight: 900;">20%</text>
+                                              <text x="50" y="120" font-family="Verdana" font-size="15">Text inside circle</text>
+                                             
+                                            </svg>
+                                        </div>
+
+                                <div class="flex flex-center Btn-container mt15">
+                                        <div class="p10 btnView">View detailed report</div>
+                                </div>
+                                
+                        </div>
+                        <div class="campaign min_w_200 bg-lightshade pl20 pr20 pt20 pb20 mt20">
+                            
+                                <p class="ta_center  mb0 mt0">Upcoming Reminder : <span class="fsemiBold">20 Jan 2020</span></p>
+                        </div>
+                        <div class="flex flex-around pt20">
+                            <div class="btnSmall">Clone</div>
+                            <div class="btnSmall">Schedule</div>
+                            <div class="btnSmall">Delete</div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <script type="text/javascript" src="./script.js"></script>
+
+    </body>
+
+</html>
